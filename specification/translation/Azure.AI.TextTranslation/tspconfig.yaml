@@ -33,6 +33,7 @@ options:
     customization-class: customization/src/main/java/TextTranslationClientBuilderCustomization.java
   "@azure-tools/typespec-ts":
     package-dir: "ai-translation-text-rest"
+    source-code-folder-path: ./src/generated
     generateMetadata: false
     generateTest: false
     packageDetails:
