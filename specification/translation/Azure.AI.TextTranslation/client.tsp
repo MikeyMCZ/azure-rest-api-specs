@@ -8,8 +8,14 @@ import "@azure-tools/typespec-client-generator-core";
 
 using Azure.ClientGenerator.Core;
 
-@@clientName(TextTranslation.BreakSentenceItem.sentLen, "SentencesLengths");
-@@clientName(TextTranslation.BreakSentenceItem.sentLen, "sentLen", "python");
+@@clientName(TextTranslation.BreakSentenceItem.sentLen,
+  "SentencesLengths",
+  "dotnet"
+);
+@@clientName(TextTranslation.BreakSentenceItem.sentLen,
+  "SentencesLengths",
+  "java"
+);
 
 @@clientName(TextTranslation.BackTranslation.numExamples, "ExamplesCount");
 @@clientName(TextTranslation.BackTranslation.numExamples,
